@@ -1,0 +1,29 @@
+{
+  "name": "andanother",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryWho/andanother.git"
+  },
+  "author": "Calvin Bartlett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarryWho/andanother/issues"
+  },
+  "homepage": "https://github.com/HarryWho/andanother#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.3.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
